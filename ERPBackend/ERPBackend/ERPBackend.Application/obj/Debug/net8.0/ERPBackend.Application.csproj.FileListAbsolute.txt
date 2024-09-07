@@ -1,0 +1,15 @@
+C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Application\bin\Debug\net8.0\ERPBackend.Application.deps.json
+C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Application\bin\Debug\net8.0\ERPBackend.Application.dll
+C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Application\bin\Debug\net8.0\ERPBackend.Application.pdb
+C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Application\bin\Debug\net8.0\ERPBackend.Domain.dll
+C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Application\bin\Debug\net8.0\ERPBackend.Domain.pdb
+C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Application\obj\Debug\net8.0\ERPBackend.Application.csproj.AssemblyReference.cache
+C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Application\obj\Debug\net8.0\ERPBackend.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Application\obj\Debug\net8.0\ERPBackend.Application.AssemblyInfoInputs.cache
+C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Application\obj\Debug\net8.0\ERPBackend.Application.AssemblyInfo.cs
+C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Application\obj\Debug\net8.0\ERPBackend.Application.csproj.CoreCompileInputs.cache
+C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Application\obj\Debug\net8.0\ERPBacke.04884535.Up2Date
+C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Application\obj\Debug\net8.0\ERPBackend.Application.dll
+C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Application\obj\Debug\net8.0\refint\ERPBackend.Application.dll
+C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Application\obj\Debug\net8.0\ERPBackend.Application.pdb
+C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Application\obj\Debug\net8.0\ref\ERPBackend.Application.dll

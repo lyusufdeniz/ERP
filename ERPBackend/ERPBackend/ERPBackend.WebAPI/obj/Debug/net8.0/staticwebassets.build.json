@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "cqpXxz3QA8lC2BKP2yKFooXhUmJSygQLIYmuJFyjtVE=",
+  "Source": "ERPBackend.WebAPI",
+  "BasePath": "_content/ERPBackend.WebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

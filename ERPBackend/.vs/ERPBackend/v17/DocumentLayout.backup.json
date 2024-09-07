@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{0F8EF66E-4549-4342-9079-D787CB89A974}|ERPBackend\\ERPBackend.Infrastructure\\ERPBackend.Infrastructure.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F8EF66E-4549-4342-9079-D787CB89A974}|ERPBackend\\ERPBackend.Infrastructure\\ERPBackend.Infrastructure.csproj|solutionrelative:erpbackend\\erpbackend.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DEAB5B7-9647-4665-8F83-DDE6B015A79A}|ERPBackend\\ERPBackend.WebAPI\\ERPBackend.WebAPI.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4DEAB5B7-9647-4665-8F83-DDE6B015A79A}|ERPBackend\\ERPBackend.WebAPI\\ERPBackend.WebAPI.csproj|solutionrelative:erpbackend\\erpbackend.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-07T10:59:22.232Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.WebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.WebAPI\\appsettings.json",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.WebAPI\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAADAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-09-07T10:58:28.677Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

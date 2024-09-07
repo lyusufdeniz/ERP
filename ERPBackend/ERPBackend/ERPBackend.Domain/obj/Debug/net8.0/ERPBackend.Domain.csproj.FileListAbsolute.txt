@@ -1,0 +1,12 @@
+C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Domain\bin\Debug\net8.0\ERPBackend.Domain.deps.json
+C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Domain\bin\Debug\net8.0\ERPBackend.Domain.dll
+C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Domain\bin\Debug\net8.0\ERPBackend.Domain.pdb
+C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Domain\obj\Debug\net8.0\ERPBackend.Domain.csproj.AssemblyReference.cache
+C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Domain\obj\Debug\net8.0\ERPBackend.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Domain\obj\Debug\net8.0\ERPBackend.Domain.AssemblyInfoInputs.cache
+C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Domain\obj\Debug\net8.0\ERPBackend.Domain.AssemblyInfo.cs
+C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Domain\obj\Debug\net8.0\ERPBackend.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Domain\obj\Debug\net8.0\ERPBackend.Domain.dll
+C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Domain\obj\Debug\net8.0\refint\ERPBackend.Domain.dll
+C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Domain\obj\Debug\net8.0\ERPBackend.Domain.pdb
+C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Domain\obj\Debug\net8.0\ref\ERPBackend.Domain.dll
