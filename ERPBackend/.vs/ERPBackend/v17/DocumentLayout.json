@@ -1,12 +1,156 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4DEAB5B7-9647-4665-8F83-DDE6B015A79A}|ERPBackend\\ERPBackend.WebAPI\\ERPBackend.WebAPI.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.webapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DEAB5B7-9647-4665-8F83-DDE6B015A79A}|ERPBackend\\ERPBackend.WebAPI\\ERPBackend.WebAPI.csproj|solutionrelative:erpbackend\\erpbackend.webapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F8EF66E-4549-4342-9079-D787CB89A974}|ERPBackend\\ERPBackend.Infrastructure\\ERPBackend.Infrastructure.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.infrastructure\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F8EF66E-4549-4342-9079-D787CB89A974}|ERPBackend\\ERPBackend.Infrastructure\\ERPBackend.Infrastructure.csproj|solutionrelative:erpbackend\\erpbackend.infrastructure\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F8EF66E-4549-4342-9079-D787CB89A974}|ERPBackend\\ERPBackend.Infrastructure\\ERPBackend.Infrastructure.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F8EF66E-4549-4342-9079-D787CB89A974}|ERPBackend\\ERPBackend.Infrastructure\\ERPBackend.Infrastructure.csproj|solutionrelative:erpbackend\\erpbackend.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F8EF66E-4549-4342-9079-D787CB89A974}|ERPBackend\\ERPBackend.Infrastructure\\ERPBackend.Infrastructure.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.infrastructure\\configurations\\customerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F8EF66E-4549-4342-9079-D787CB89A974}|ERPBackend\\ERPBackend.Infrastructure\\ERPBackend.Infrastructure.csproj|solutionrelative:erpbackend\\erpbackend.infrastructure\\configurations\\customerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CCB77EC-0CCA-4782-9DC5-763FC5BCDD00}|ERPBackend\\ERPBackend.Application\\ERPBackend.Application.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.application\\features\\customers\\getallcustomer\\getallcustomerqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CCB77EC-0CCA-4782-9DC5-763FC5BCDD00}|ERPBackend\\ERPBackend.Application\\ERPBackend.Application.csproj|solutionrelative:erpbackend\\erpbackend.application\\features\\customers\\getallcustomer\\getallcustomerqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CCB77EC-0CCA-4782-9DC5-763FC5BCDD00}|ERPBackend\\ERPBackend.Application\\ERPBackend.Application.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.application\\features\\customers\\getallcustomer\\getallcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CCB77EC-0CCA-4782-9DC5-763FC5BCDD00}|ERPBackend\\ERPBackend.Application\\ERPBackend.Application.csproj|solutionrelative:erpbackend\\erpbackend.application\\features\\customers\\getallcustomer\\getallcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFD8274-88E2-4E1D-8A45-ABFB09AFB525}|ERPBackend\\ERPBackend.Domain\\ERPBackend.Domain.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.domain\\repositories\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFD8274-88E2-4E1D-8A45-ABFB09AFB525}|ERPBackend\\ERPBackend.Domain\\ERPBackend.Domain.csproj|solutionrelative:erpbackend\\erpbackend.domain\\repositories\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1AFD8274-88E2-4E1D-8A45-ABFB09AFB525}|ERPBackend\\ERPBackend.Domain\\ERPBackend.Domain.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFD8274-88E2-4E1D-8A45-ABFB09AFB525}|ERPBackend\\ERPBackend.Domain\\ERPBackend.Domain.csproj|solutionrelative:erpbackend\\erpbackend.domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "CustomerConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Configurations\\CustomerConfiguration.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Infrastructure\\Configurations\\CustomerConfiguration.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Configurations\\CustomerConfiguration.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.Infrastructure\\Configurations\\CustomerConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T20:51:11.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.WebAPI\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.WebAPI\\Controllers\\CustomerController.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.WebAPI\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.WebAPI\\Controllers\\CustomerController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T20:48:08.72Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T20:51:38.302Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Infrastructure\\Repositories\\CustomerRepository.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Repositories\\CustomerRepository.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.Infrastructure\\Repositories\\CustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T20:51:47.652Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "GetAllCustomerQueryHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Application\\Features\\Customers\\GetAllCustomer\\GetAllCustomerQueryHandler.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Application\\Features\\Customers\\GetAllCustomer\\GetAllCustomerQueryHandler.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Application\\Features\\Customers\\GetAllCustomer\\GetAllCustomerQueryHandler.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.Application\\Features\\Customers\\GetAllCustomer\\GetAllCustomerQueryHandler.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T20:47:32.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ICustomerRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Domain\\Repositories\\ICustomerRepository.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Domain\\Repositories\\ICustomerRepository.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Domain\\Repositories\\ICustomerRepository.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.Domain\\Repositories\\ICustomerRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T20:45:56.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Customer.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Domain\\Entities\\Customer.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Domain\\Entities\\Customer.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Domain\\Entities\\Customer.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.Domain\\Entities\\Customer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T20:42:12.941Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "GetAllCustomer.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Application\\Features\\Customers\\GetAllCustomer\\GetAllCustomer.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Application\\Features\\Customers\\GetAllCustomer\\GetAllCustomer.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Application\\Features\\Customers\\GetAllCustomer\\GetAllCustomer.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.Application\\Features\\Customers\\GetAllCustomer\\GetAllCustomer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T20:41:57.445Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

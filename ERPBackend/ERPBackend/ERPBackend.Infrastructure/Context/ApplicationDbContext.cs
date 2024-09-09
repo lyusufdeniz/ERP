@@ -1,4 +1,5 @@
 ﻿using ERPBackend.Domain.Entities;
+using ERPBackend.Domain.Entities.Customer;
 using GenericRepository;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
@@ -11,6 +12,7 @@ namespace ERPBackend.Infrastructure.Context
         public ApplicationDbContext(DbContextOptions options) : base(options)
         {
         }
+        public DbSet<Customer> Customers { get; set; }
 
         protected override void OnModelCreating(ModelBuilder builder)
         {

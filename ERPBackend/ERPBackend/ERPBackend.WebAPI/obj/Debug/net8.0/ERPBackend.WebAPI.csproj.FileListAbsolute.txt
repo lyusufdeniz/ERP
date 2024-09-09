@@ -170,3 +170,4 @@ C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.WebAPI\obj\Debu
 C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.WebAPI\obj\Debug\net8.0\ERPBackend.WebAPI.pdb
 C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.WebAPI\obj\Debug\net8.0\ERPBackend.WebAPI.genruntimeconfig.cache
 C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.WebAPI\obj\Debug\net8.0\ref\ERPBackend.WebAPI.dll
+C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.WebAPI\obj\Debug\net8.0\ERPBackend.WebAPI.sourcelink.json

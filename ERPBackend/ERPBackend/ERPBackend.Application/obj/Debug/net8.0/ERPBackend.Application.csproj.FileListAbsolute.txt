@@ -13,3 +13,4 @@ C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Application\obj
 C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Application\obj\Debug\net8.0\refint\ERPBackend.Application.dll
 C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Application\obj\Debug\net8.0\ERPBackend.Application.pdb
 C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Application\obj\Debug\net8.0\ref\ERPBackend.Application.dll
+C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Application\obj\Debug\net8.0\ERPBackend.Application.sourcelink.json

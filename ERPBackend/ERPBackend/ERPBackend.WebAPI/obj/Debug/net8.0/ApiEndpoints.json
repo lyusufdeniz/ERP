@@ -14,5 +14,21 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ERPBackend.WebAPI.Controllers.CustomerController",
+    "Method": "GetAll",
+    "RelativePath": "api/Customer",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ERPBackend.Application.Features.Customers.GetAllCustomer.GetAllCustomerQuery",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

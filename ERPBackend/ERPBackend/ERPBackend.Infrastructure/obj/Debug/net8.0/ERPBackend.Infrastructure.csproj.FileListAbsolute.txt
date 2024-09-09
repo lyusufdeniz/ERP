@@ -17,3 +17,4 @@ C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Infrastructure\
 C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Infrastructure\obj\Debug\net8.0\ERPBackend.Infrastructure.pdb
 C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Infrastructure\obj\Debug\net8.0\ERPBackend.Infrastructure.genruntimeconfig.cache
 C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Infrastructure\obj\Debug\net8.0\ref\ERPBackend.Infrastructure.dll
+C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Infrastructure\obj\Debug\net8.0\ERPBackend.Infrastructure.sourcelink.json

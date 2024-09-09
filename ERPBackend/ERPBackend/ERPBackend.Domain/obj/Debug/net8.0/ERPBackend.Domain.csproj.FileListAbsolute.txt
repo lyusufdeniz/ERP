@@ -10,3 +10,4 @@ C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Domain\obj\Debu
 C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Domain\obj\Debug\net8.0\refint\ERPBackend.Domain.dll
 C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Domain\obj\Debug\net8.0\ERPBackend.Domain.pdb
 C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Domain\obj\Debug\net8.0\ref\ERPBackend.Domain.dll
+C:\Users\Yusuf\source\repos\ERP\ERPBackend\ERPBackend\ERPBackend.Domain\obj\Debug\net8.0\ERPBackend.Domain.sourcelink.json
