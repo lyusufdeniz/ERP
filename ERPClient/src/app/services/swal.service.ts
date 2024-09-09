@@ -9,15 +9,14 @@ export class SwalService {
   constructor() { }
 
 
-  callToast(title: string,text:string,icon:SweetAlertIcon="success") {
+  callToast(text:string,icon:SweetAlertIcon="success") {
     Swal.fire({
-      title: title,
       text:text,
       timer:3000,
       showConfirmButton:false,
       toast:true,
-      position:"bottom-right",
-      icon:"info"
+      position:"top",
+      icon:icon
 
     });
 
