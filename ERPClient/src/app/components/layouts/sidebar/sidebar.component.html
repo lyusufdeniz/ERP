@@ -22,8 +22,8 @@
 
       }
       @else {
-        <li class="nav-item">
-          <a class="nav-link" [routerLink]="menu.url" routerLinkActive="nav-item active" [routerLinkActiveOptions]="{exact:true}">
+        <li class="nav-item" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">
+          <a [routerLink]="menu.url"  class="nav-link">
             <i class="mdi {{menu.icon}} menu-icon"></i>
             <span class="menu-title">{{menu.name}}</span>
           </a>

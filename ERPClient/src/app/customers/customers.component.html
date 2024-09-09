@@ -1,0 +1,161 @@
+<div class="content-wrapper">
+<div class="card">
+    <div class="card-body">
+        <h4 class="card-title">Müşteriler Tablosu</h4>
+
+        <div class="form-group row">
+            <div class="col">
+                <div class="btn-group" role="group" aria-label="Basic example">
+                    <button type="button " class="btn btn-primary btn-sm" data-bs-toggle="modal"
+                        data-bs-target="#createModal">
+                        <i class="ti-plus"></i>
+                    </button>
+                    <button type="button" class="btn btn-warning btn-sm">
+                        <i class="ti-printer"></i>
+                    </button>
+                    <button type="button" class="btn btn-success btn-sm">
+                        <i class="ti-export"></i>
+                    </button>
+
+                </div>
+
+            </div>
+            <div class="col-3">
+
+                <input [(ngModel)]="search" type="text" class="form-control" placeholder="Ara">
+
+            </div>
+
+        </div>
+        <div class="table-responsive">
+            <table class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>#</th>
+                        <th>Müşteri Adı</th>
+                        <th>Vergi Dairesi</th>
+                        <th>Vergi Numarası</th>
+                        <th>Şehir</th>
+                        <th>İlçe</th>
+                        <th>Açık Adres</th>
+                        <th>Durum</th>
+                        <th>İşlemler</th>
+
+                    </tr>
+                </thead>
+                <tbody>
+                    @for(customer of customers | customer:search;track customer)
+                    {
+                    <tr>
+                        <td>**************{{customer.id.substring(30)}}</td>
+                        <td>{{customer.name}}</td>
+                        <td>{{customer.taxDepartment}}</td>
+                        <td>{{customer.taxNumber}}</td>
+                        <td>{{customer.city}}</td>
+                        <td>{{customer.town}}</td>
+                        <td>{{customer.fullAddress}}</td>
+                        @if(customer.state)
+                        {
+                        <td><label class="badge badge-success">Aktif</label></td>
+                        }
+                        @else {
+                        <td><label class="badge badge-danger">Pasif</label></td>
+                        }
+
+                        <td>
+                            <div class="btn-group" role="group" aria-label="Basic example">
+                                <button type="button " class="btn btn-inverse-success btn-sm">
+                                    <i class="ti-zoom-in"></i>
+                                </button>
+                                <button type="button" class="btn btn-inverse-info btn-sm">
+                                    <i class="ti-pencil"></i>
+                                </button>
+                                <button type="button" class="btn btn-inverse-danger btn-sm">
+                                    <i class="ti-trash"></i>
+                                </button>
+                            </div>
+                        </td>
+
+
+                    </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+</div>
+<!-- Modal -->
+<div class="modal fade" id="createModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Müşteri Kayıt</h5>
+                <button #createModalClosebtn type="button" class="btn-close" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form class="material-form " formValidate #createForm="ngForm" autocomplete="off" (ngSubmit)="create(createForm)">
+                    <div class="form-group ">
+                        <input type="text" required="required" minlength="3" name="name">
+                        <div class="invalid-feedback"></div>
+                        <label for="input" class="control-label">Ad</label><i class="bar"></i>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 ">
+                            <div class="form-group">
+                                <input type="text" required="required" minlength="10" maxlength="11" name="taxNumber">
+                                <div class="invalid-feedback"></div>
+                                <label for="input" class="control-label">Vergi Numarası</label><i class="bar"></i>
+                               
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group">
+                                <input type="text" required="required" minlength="3" name="taxDepartment" [(ngModel)]="createModel.taxDepartment">
+                                <div class="invalid-feedback"></div>
+                               <label for="input" class="control-label">Vergi Dairesi</label><i class="bar"></i>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-6">
+                            <div class="form-group">
+                                <input type="text" required="required" minlength="3" name="city">
+                                <div class="invalid-feedback"></div>
+                                <label for="input" class="control-label">Şehir</label><i class="bar"></i>
+                               
+                            </div>
+                        </div>
+                        <div class="col-6">
+
+                            <div class="form-group">
+                                <input type="text" required="required" minlength="3" name="town">
+                                <div class="invalid-feedback"></div>
+                                <label for="input" class="control-label">İlçe</label><i class="bar"></i>
+                               
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <textarea required="required" name="fullAddress" minlength="3"></textarea>
+                        <div class="invalid-feedback"></div>
+                        <label for="textarea" class="control-label">Açık Adres</label><i class="bar"></i>
+                     
+                    </div>
+                    <button type="submit" class="btn btn-success w-100">Kaydet</button>
+                </form>
+            </div>
+          
+        </div>
+    </div>
+</div>
+
+
+
+

@@ -17,31 +17,14 @@ export const Menus: MenuModel[] = [
 
     },
     {
-        name: "Kullanıcılar",
-        icon: "mdi-account",
-        url: "/Users",
-        subMenus: [{
-            name: "İstatistikler",
-            icon: "",
-            url: "/Users",
-            subMenus: []
+        name: "Müşteriler",
+        icon: "mdi mdi-account-supervisor",
+        url: "customers",
+        subMenus: []
 
-        }]
-
-    },
-    {
-        name: "Grafikler",
-        icon: "mdi-chart-bar",
-        url: "/Users",
-        subMenus: [{
-            name: "1",
-            icon: "",
-            url: "/Users",
-            subMenus: []
-
-        }]
-
-    },
+    }
+    
+  
     
 
 ]
