@@ -1,6 +1,8 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
 
+
+
 @Component({
   selector: 'app-home',
   standalone: true,
@@ -10,4 +12,8 @@ import { RouterOutlet } from '@angular/router';
 })
 export class HomeComponent {
 
+  constructor(){
+
+
+  };
 }
