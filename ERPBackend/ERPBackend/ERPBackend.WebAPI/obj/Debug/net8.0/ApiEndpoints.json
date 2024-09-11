@@ -17,8 +17,40 @@
   },
   {
     "ContainingType": "ERPBackend.WebAPI.Controllers.CustomerController",
+    "Method": "Create",
+    "RelativePath": "api/Customer/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ERPBackend.Application.Features.Customers.CreateCustomer.CreateCustomerCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ERPBackend.WebAPI.Controllers.CustomerController",
+    "Method": "Delete",
+    "RelativePath": "api/Customer/Delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ERPBackend.Application.Features.Customers.DeleteCustomerById.DeleteCustomerByIdCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ERPBackend.WebAPI.Controllers.CustomerController",
     "Method": "GetAll",
-    "RelativePath": "api/Customer",
+    "RelativePath": "api/Customer/GetAll",
     "HttpMethod": "POST",
     "IsController": true,
     "Order": 0,
@@ -26,6 +58,22 @@
       {
         "Name": "request",
         "Type": "ERPBackend.Application.Features.Customers.GetAllCustomer.GetAllCustomerQuery",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ERPBackend.WebAPI.Controllers.CustomerController",
+    "Method": "Update",
+    "RelativePath": "api/Customer/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ERPBackend.Application.Features.Customers.UpdateCustomer.UpdateCustomerCommand",
         "IsRequired": true
       }
     ],
