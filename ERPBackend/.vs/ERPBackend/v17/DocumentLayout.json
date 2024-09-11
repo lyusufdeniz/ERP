@@ -54,8 +54,7 @@
               "RelativeToolTip": "ERPBackend\\ERPBackend.Infrastructure\\Configurations\\CustomerConfiguration.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T20:51:11.02Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-09T20:51:11.02Z"
             },
             {
               "$type": "Document",
@@ -65,7 +64,7 @@
               "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.WebAPI\\Controllers\\CustomerController.cs",
               "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.WebAPI\\Controllers\\CustomerController.cs",
               "RelativeToolTip": "ERPBackend\\ERPBackend.WebAPI\\Controllers\\CustomerController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAABcAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAABcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-09T20:48:08.72Z",
               "EditorCaption": ""
@@ -80,8 +79,7 @@
               "RelativeToolTip": "ERPBackend\\ERPBackend.Infrastructure\\Context\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T20:51:38.302Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-09T20:51:38.302Z"
             },
             {
               "$type": "Document",
@@ -93,8 +91,7 @@
               "RelativeToolTip": "ERPBackend\\ERPBackend.Infrastructure\\Repositories\\CustomerRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T20:51:47.652Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-09T20:51:47.652Z"
             },
             {
               "$type": "Document",
@@ -106,8 +103,7 @@
               "RelativeToolTip": "ERPBackend\\ERPBackend.Application\\Features\\Customers\\GetAllCustomer\\GetAllCustomerQueryHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T20:47:32.432Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-09T20:47:32.432Z"
             },
             {
               "$type": "Document",
@@ -119,8 +115,7 @@
               "RelativeToolTip": "ERPBackend\\ERPBackend.Domain\\Repositories\\ICustomerRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T20:45:56.583Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-09T20:45:56.583Z"
             },
             {
               "$type": "Document",
@@ -132,8 +127,7 @@
               "RelativeToolTip": "ERPBackend\\ERPBackend.Domain\\Entities\\Customer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T20:42:12.941Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-09T20:42:12.941Z"
             },
             {
               "$type": "Document",
@@ -145,8 +139,7 @@
               "RelativeToolTip": "ERPBackend\\ERPBackend.Application\\Features\\Customers\\GetAllCustomer\\GetAllCustomer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T20:41:57.445Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-09T20:41:57.445Z"
             }
           ]
         }
