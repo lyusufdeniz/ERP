@@ -22,6 +22,13 @@ export const Menus: MenuModel[] = [
         url: "customers",
         subMenus: []
 
+    },
+    {
+        name: "Depolar",
+        icon: "mdi mdi-warehouse",
+        url: "depots",
+        subMenus: []
+
     }
     
   

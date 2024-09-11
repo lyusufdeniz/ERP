@@ -63,14 +63,12 @@
                         }
 
                         <td>
-                            <div class="btn-group" role="group" aria-label="Basic example">
-                                <button type="button " class="btn btn-inverse-success btn-sm">
-                                    <i class="ti-zoom-in"></i>
-                                </button>
-                                <button type="button" class="btn btn-inverse-info btn-sm">
+                            <div class="btn-group" role="group">
+                               
+                                <button (click)="get(customer)" data-bs-toggle="modal" data-bs-target="#updateModal" type="button" class="btn btn-inverse-info btn-sm">
                                     <i class="ti-pencil"></i>
                                 </button>
-                                <button type="button" class="btn btn-inverse-danger btn-sm">
+                                <button (click)="delete(customer)" type="button" class="btn btn-inverse-danger btn-sm">
                                     <i class="ti-trash"></i>
                                 </button>
                             </div>
@@ -87,7 +85,7 @@
 </div>
 
 </div>
-<!-- Modal -->
+<!-- CreateModal -->
 <div class="modal fade" id="createModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -99,14 +97,14 @@
             <div class="modal-body">
                 <form class="material-form " formValidate #createForm="ngForm" autocomplete="off" (ngSubmit)="create(createForm)">
                     <div class="form-group ">
-                        <input type="text" required="required" minlength="3" name="name">
+                        <input type="text" [(ngModel)]="createModel.name" required="required" minlength="3" name="name">
                         <div class="invalid-feedback"></div>
                         <label for="input" class="control-label">Ad</label><i class="bar"></i>
                     </div>
                     <div class="row">
                         <div class="col-6 ">
                             <div class="form-group">
-                                <input type="text" required="required" minlength="10" maxlength="11" name="taxNumber">
+                                <input [(ngModel)]="createModel.taxNumber"  type="text" required="required" minlength="10" maxlength="11" name="taxNumber">
                                 <div class="invalid-feedback"></div>
                                 <label for="input" class="control-label">Vergi Numarası</label><i class="bar"></i>
                                
@@ -114,7 +112,7 @@
                         </div>
                         <div class="col-6">
                             <div class="form-group">
-                                <input type="text" required="required" minlength="3" name="taxDepartment" [(ngModel)]="createModel.taxDepartment">
+                                <input  type="text" required="required" minlength="3" name="taxDepartment" [(ngModel)]="createModel.taxDepartment">
                                 <div class="invalid-feedback"></div>
                                <label for="input" class="control-label">Vergi Dairesi</label><i class="bar"></i>
                                 
@@ -124,7 +122,7 @@
                     <div class="row ">
                         <div class="col-6">
                             <div class="form-group">
-                                <input type="text" required="required" minlength="3" name="city">
+                                <input [(ngModel)]="createModel.city"  type="text" required="required" minlength="3" name="city">
                                 <div class="invalid-feedback"></div>
                                 <label for="input" class="control-label">Şehir</label><i class="bar"></i>
                                
@@ -133,7 +131,7 @@
                         <div class="col-6">
 
                             <div class="form-group">
-                                <input type="text" required="required" minlength="3" name="town">
+                                <input [(ngModel)]="createModel.town"  type="text" required="required" minlength="3" name="town">
                                 <div class="invalid-feedback"></div>
                                 <label for="input" class="control-label">İlçe</label><i class="bar"></i>
                                
@@ -143,12 +141,82 @@
 
 
                     <div class="form-group">
-                        <textarea required="required" name="fullAddress" minlength="3"></textarea>
+                        <textarea [(ngModel)]="createModel.fullAddress"  required="required" name="fullAddress" minlength="3"></textarea>
                         <div class="invalid-feedback"></div>
                         <label for="textarea" class="control-label">Açık Adres</label><i class="bar"></i>
                      
                     </div>
                     <button type="submit" class="btn btn-success w-100">Kaydet</button>
+                </form>
+            </div>
+          
+        </div>
+    </div>
+</div>
+<!-- UpdateModal -->
+
+
+<div class="modal fade" id="updateModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Müşteri Güncelle</h5>
+                <button #updateModalClosebtn type="button" class="btn-close" data-bs-dismiss="modal"
+                    aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form class="material-form " formValidate #updateForm="ngForm" autocomplete="off" (ngSubmit)="update(updateForm)">
+                    <div class="form-group ">
+                        <input type="text" [(ngModel)]="updateModel.name" required="required" minlength="3" name="updateName">
+                        <div class="invalid-feedback"></div>
+                        <label for="input" class="control-label">Ad</label><i class="bar"></i>
+                    </div>
+                    <div class="row">
+                        <div class="col-6 ">
+                            <div class="form-group">
+                                <input [(ngModel)]="updateModel.taxNumber"  type="text" required="required" minlength="10" maxlength="11" name="updateTaxNumber">
+                                <div class="invalid-feedback"></div>
+                                <label for="input" class="control-label">Vergi Numarası</label><i class="bar"></i>
+                               
+                            </div>
+                        </div>
+                        <div class="col-6">
+                            <div class="form-group">
+                                <input  type="text" required="required" minlength="3" name="updateTaxDepartment" [(ngModel)]="updateModel.taxDepartment">
+                                <div class="invalid-feedback"></div>
+                               <label for="input" class="control-label">Vergi Dairesi</label><i class="bar"></i>
+                                
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row ">
+                        <div class="col-6">
+                            <div class="form-group">
+                                <input [(ngModel)]="updateModel.city"  type="text" required="required" minlength="3" name="updateCity">
+                                <div class="invalid-feedback"></div>
+                                <label for="input" class="control-label">Şehir</label><i class="bar"></i>
+                               
+                            </div>
+                        </div>
+                        <div class="col-6">
+
+                            <div class="form-group">
+                                <input [(ngModel)]="updateModel.town"  type="text" required="required" minlength="3" name="updateTown">
+                                <div class="invalid-feedback"></div>
+                                <label for="input" class="control-label">İlçe</label><i class="bar"></i>
+                               
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="form-group">
+                        <textarea [(ngModel)]="updateModel.fullAddress"  required="required" name="updateFullAddress" minlength="3"></textarea>
+                        <div class="invalid-feedback"></div>
+                        <label for="textarea" class="control-label">Açık Adres</label><i class="bar"></i>
+                     
+                    </div>
+                    <button  type="submit" class="btn btn-success w-100">Güncelle</button>
                 </form>
             </div>
           

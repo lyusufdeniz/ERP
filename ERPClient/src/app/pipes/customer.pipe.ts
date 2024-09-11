@@ -16,7 +16,8 @@ export class CustomerPipe implements PipeTransform {
         p.taxNumber.toLocaleLowerCase().includes(search.toLocaleLowerCase()) ||
         p.taxDepartment.toLocaleLowerCase().includes(search.toLocaleLowerCase()) ||
         p.town.toLocaleLowerCase().includes(search.toLocaleLowerCase()) ||
-        p.fullAddress.toLocaleLowerCase().includes(search.toLocaleLowerCase())
+        p.fullAddress.toLocaleLowerCase().includes(search.toLocaleLowerCase()) ||
+        p.id.toLocaleLowerCase().includes(search.toLocaleLowerCase())
       )
   }
 
