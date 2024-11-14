@@ -3,36 +3,72 @@
   "WorkspaceRootPath": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4DEAB5B7-9647-4665-8F83-DDE6B015A79A}|ERPBackend\\ERPBackend.WebAPI\\ERPBackend.WebAPI.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.webapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4DEAB5B7-9647-4665-8F83-DDE6B015A79A}|ERPBackend\\ERPBackend.WebAPI\\ERPBackend.WebAPI.csproj|solutionrelative:erpbackend\\erpbackend.webapi\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1AFD8274-88E2-4E1D-8A45-ABFB09AFB525}|ERPBackend\\ERPBackend.Domain\\ERPBackend.Domain.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.domain\\entities\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFD8274-88E2-4E1D-8A45-ABFB09AFB525}|ERPBackend\\ERPBackend.Domain\\ERPBackend.Domain.csproj|solutionrelative:erpbackend\\erpbackend.domain\\entities\\recipe.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F8EF66E-4549-4342-9079-D787CB89A974}|ERPBackend\\ERPBackend.Infrastructure\\ERPBackend.Infrastructure.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.infrastructure\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F8EF66E-4549-4342-9079-D787CB89A974}|ERPBackend\\ERPBackend.Infrastructure\\ERPBackend.Infrastructure.csproj|solutionrelative:erpbackend\\erpbackend.infrastructure\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1AFD8274-88E2-4E1D-8A45-ABFB09AFB525}|ERPBackend\\ERPBackend.Domain\\ERPBackend.Domain.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.domain\\dtos\\recipedetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFD8274-88E2-4E1D-8A45-ABFB09AFB525}|ERPBackend\\ERPBackend.Domain\\ERPBackend.Domain.csproj|solutionrelative:erpbackend\\erpbackend.domain\\dtos\\recipedetaildto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DEAB5B7-9647-4665-8F83-DDE6B015A79A}|ERPBackend\\ERPBackend.WebAPI\\ERPBackend.WebAPI.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.webapi\\controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DEAB5B7-9647-4665-8F83-DDE6B015A79A}|ERPBackend\\ERPBackend.WebAPI\\ERPBackend.WebAPI.csproj|solutionrelative:erpbackend\\erpbackend.webapi\\controllers\\recipescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DEAB5B7-9647-4665-8F83-DDE6B015A79A}|ERPBackend\\ERPBackend.WebAPI\\ERPBackend.WebAPI.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.webapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DEAB5B7-9647-4665-8F83-DDE6B015A79A}|ERPBackend\\ERPBackend.WebAPI\\ERPBackend.WebAPI.csproj|solutionrelative:erpbackend\\erpbackend.webapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CCB77EC-0CCA-4782-9DC5-763FC5BCDD00}|ERPBackend\\ERPBackend.Application\\ERPBackend.Application.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.application\\features\\recipes\\deleterecipebyid\\deleterecipebyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CCB77EC-0CCA-4782-9DC5-763FC5BCDD00}|ERPBackend\\ERPBackend.Application\\ERPBackend.Application.csproj|solutionrelative:erpbackend\\erpbackend.application\\features\\recipes\\deleterecipebyid\\deleterecipebyidcommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CCB77EC-0CCA-4782-9DC5-763FC5BCDD00}|ERPBackend\\ERPBackend.Application\\ERPBackend.Application.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.application\\features\\recipes\\createrecipe\\createrecipecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CCB77EC-0CCA-4782-9DC5-763FC5BCDD00}|ERPBackend\\ERPBackend.Application\\ERPBackend.Application.csproj|solutionrelative:erpbackend\\erpbackend.application\\features\\recipes\\createrecipe\\createrecipecommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CCB77EC-0CCA-4782-9DC5-763FC5BCDD00}|ERPBackend\\ERPBackend.Application\\ERPBackend.Application.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.application\\features\\recipes\\getallrecipe\\getallrecipequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CCB77EC-0CCA-4782-9DC5-763FC5BCDD00}|ERPBackend\\ERPBackend.Application\\ERPBackend.Application.csproj|solutionrelative:erpbackend\\erpbackend.application\\features\\recipes\\getallrecipe\\getallrecipequery.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Migrations\\20241114140636_recipes1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ERPBackend\\ERPBackend.Infrastructure\\Migrations\\20241114140636_recipes1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Migrations\\20241114140605_recipes_details.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ERPBackend\\ERPBackend.Infrastructure\\Migrations\\20241114140605_recipes_details.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F8EF66E-4549-4342-9079-D787CB89A974}|ERPBackend\\ERPBackend.Infrastructure\\ERPBackend.Infrastructure.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.infrastructure\\configurations\\recipedetailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F8EF66E-4549-4342-9079-D787CB89A974}|ERPBackend\\ERPBackend.Infrastructure\\ERPBackend.Infrastructure.csproj|solutionrelative:erpbackend\\erpbackend.infrastructure\\configurations\\recipedetailconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Migrations\\20241114140341_recipes_details.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ERPBackend\\ERPBackend.Infrastructure\\Migrations\\20241114140341_recipes_details.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Migrations\\20241114140234_recipes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ERPBackend\\ERPBackend.Infrastructure\\Migrations\\20241114140234_recipes.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F8EF66E-4549-4342-9079-D787CB89A974}|ERPBackend\\ERPBackend.Infrastructure\\ERPBackend.Infrastructure.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.infrastructure\\configurations\\recipeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F8EF66E-4549-4342-9079-D787CB89A974}|ERPBackend\\ERPBackend.Infrastructure\\ERPBackend.Infrastructure.csproj|solutionrelative:erpbackend\\erpbackend.infrastructure\\configurations\\recipeconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0F8EF66E-4549-4342-9079-D787CB89A974}|ERPBackend\\ERPBackend.Infrastructure\\ERPBackend.Infrastructure.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0F8EF66E-4549-4342-9079-D787CB89A974}|ERPBackend\\ERPBackend.Infrastructure\\ERPBackend.Infrastructure.csproj|solutionrelative:erpbackend\\erpbackend.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F8EF66E-4549-4342-9079-D787CB89A974}|ERPBackend\\ERPBackend.Infrastructure\\ERPBackend.Infrastructure.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.infrastructure\\configurations\\customerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0F8EF66E-4549-4342-9079-D787CB89A974}|ERPBackend\\ERPBackend.Infrastructure\\ERPBackend.Infrastructure.csproj|solutionrelative:erpbackend\\erpbackend.infrastructure\\configurations\\customerconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F8EF66E-4549-4342-9079-D787CB89A974}|ERPBackend\\ERPBackend.Infrastructure\\ERPBackend.Infrastructure.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.infrastructure\\repositories\\reciperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F8EF66E-4549-4342-9079-D787CB89A974}|ERPBackend\\ERPBackend.Infrastructure\\ERPBackend.Infrastructure.csproj|solutionrelative:erpbackend\\erpbackend.infrastructure\\repositories\\reciperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CCB77EC-0CCA-4782-9DC5-763FC5BCDD00}|ERPBackend\\ERPBackend.Application\\ERPBackend.Application.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.application\\features\\customers\\getallcustomer\\getallcustomerqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CCB77EC-0CCA-4782-9DC5-763FC5BCDD00}|ERPBackend\\ERPBackend.Application\\ERPBackend.Application.csproj|solutionrelative:erpbackend\\erpbackend.application\\features\\customers\\getallcustomer\\getallcustomerqueryhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1AFD8274-88E2-4E1D-8A45-ABFB09AFB525}|ERPBackend\\ERPBackend.Domain\\ERPBackend.Domain.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.domain\\repositories\\ireciperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1AFD8274-88E2-4E1D-8A45-ABFB09AFB525}|ERPBackend\\ERPBackend.Domain\\ERPBackend.Domain.csproj|solutionrelative:erpbackend\\erpbackend.domain\\repositories\\ireciperepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2CCB77EC-0CCA-4782-9DC5-763FC5BCDD00}|ERPBackend\\ERPBackend.Application\\ERPBackend.Application.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.application\\features\\customers\\getallcustomer\\getallcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2CCB77EC-0CCA-4782-9DC5-763FC5BCDD00}|ERPBackend\\ERPBackend.Application\\ERPBackend.Application.csproj|solutionrelative:erpbackend\\erpbackend.application\\features\\customers\\getallcustomer\\getallcustomer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AFD8274-88E2-4E1D-8A45-ABFB09AFB525}|ERPBackend\\ERPBackend.Domain\\ERPBackend.Domain.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.domain\\repositories\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AFD8274-88E2-4E1D-8A45-ABFB09AFB525}|ERPBackend\\ERPBackend.Domain\\ERPBackend.Domain.csproj|solutionrelative:erpbackend\\erpbackend.domain\\repositories\\icustomerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1AFD8274-88E2-4E1D-8A45-ABFB09AFB525}|ERPBackend\\ERPBackend.Domain\\ERPBackend.Domain.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1AFD8274-88E2-4E1D-8A45-ABFB09AFB525}|ERPBackend\\ERPBackend.Domain\\ERPBackend.Domain.csproj|solutionrelative:erpbackend\\erpbackend.domain\\entities\\customer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0F8EF66E-4549-4342-9079-D787CB89A974}|ERPBackend\\ERPBackend.Infrastructure\\ERPBackend.Infrastructure.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.infrastructure\\configurations\\appuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F8EF66E-4549-4342-9079-D787CB89A974}|ERPBackend\\ERPBackend.Infrastructure\\ERPBackend.Infrastructure.csproj|solutionrelative:erpbackend\\erpbackend.infrastructure\\configurations\\appuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,104 +78,228 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "CustomerConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Configurations\\CustomerConfiguration.cs",
-              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Infrastructure\\Configurations\\CustomerConfiguration.cs",
-              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Configurations\\CustomerConfiguration.cs",
-              "RelativeToolTip": "ERPBackend\\ERPBackend.Infrastructure\\Configurations\\CustomerConfiguration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAxAAAAAAAAAA==",
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.WebAPI\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.WebAPI\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.WebAPI\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.WebAPI\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T20:51:11.02Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CustomerController.cs",
-              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.WebAPI\\Controllers\\CustomerController.cs",
-              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.WebAPI\\Controllers\\CustomerController.cs",
-              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.WebAPI\\Controllers\\CustomerController.cs",
-              "RelativeToolTip": "ERPBackend\\ERPBackend.WebAPI\\Controllers\\CustomerController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAABAAAABcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T20:48:08.72Z",
+              "WhenOpened": "2024-11-14T14:53:56.968Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "RecipesController.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.WebAPI\\Controllers\\RecipesController.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.WebAPI\\Controllers\\RecipesController.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.WebAPI\\Controllers\\RecipesController.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.WebAPI\\Controllers\\RecipesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T14:53:54.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeleteRecipeByIdCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Application\\Features\\Recipes\\DeleteRecipeById\\DeleteRecipeByIdCommand.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Application\\Features\\Recipes\\DeleteRecipeById\\DeleteRecipeByIdCommand.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Application\\Features\\Recipes\\DeleteRecipeById\\DeleteRecipeByIdCommand.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.Application\\Features\\Recipes\\DeleteRecipeById\\DeleteRecipeByIdCommand.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABEAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T14:46:21.426Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "RecipeDetailDto.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Domain\\Dtos\\RecipeDetailDto.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Domain\\Dtos\\RecipeDetailDto.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Domain\\Dtos\\RecipeDetailDto.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.Domain\\Dtos\\RecipeDetailDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T14:32:22.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "CreateRecipeCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Application\\Features\\Recipes\\CreateRecipe\\CreateRecipeCommand.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Application\\Features\\Recipes\\CreateRecipe\\CreateRecipeCommand.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Application\\Features\\Recipes\\CreateRecipe\\CreateRecipeCommand.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.Application\\Features\\Recipes\\CreateRecipe\\CreateRecipeCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T14:30:02.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "GetAllRecipeQuery.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Application\\Features\\Recipes\\GetAllRecipe\\GetAllRecipeQuery.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Application\\Features\\Recipes\\GetAllRecipe\\GetAllRecipeQuery.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Application\\Features\\Recipes\\GetAllRecipe\\GetAllRecipeQuery.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.Application\\Features\\Recipes\\GetAllRecipe\\GetAllRecipeQuery.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T14:23:24.197Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Recipe.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Domain\\Entities\\Recipe.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Domain\\Entities\\Recipe.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Domain\\Entities\\Recipe.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.Domain\\Entities\\Recipe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T14:22:07.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20241114140636_recipes1.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Migrations\\20241114140636_recipes1.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Infrastructure\\Migrations\\20241114140636_recipes1.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Migrations\\20241114140636_recipes1.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.Infrastructure\\Migrations\\20241114140636_recipes1.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T14:06:37.032Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20241114140605_recipes_details.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Migrations\\20241114140605_recipes_details.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Infrastructure\\Migrations\\20241114140605_recipes_details.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Migrations\\20241114140605_recipes_details.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.Infrastructure\\Migrations\\20241114140605_recipes_details.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T14:06:06.024Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "20241114140341_recipes_details.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Migrations\\20241114140341_recipes_details.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Infrastructure\\Migrations\\20241114140341_recipes_details.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Migrations\\20241114140341_recipes_details.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.Infrastructure\\Migrations\\20241114140341_recipes_details.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T14:03:41.657Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20241114140234_recipes.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Migrations\\20241114140234_recipes.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Infrastructure\\Migrations\\20241114140234_recipes.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Migrations\\20241114140234_recipes.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.Infrastructure\\Migrations\\20241114140234_recipes.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T14:02:34.7Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RecipeDetailConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Configurations\\RecipeDetailConfiguration.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Infrastructure\\Configurations\\RecipeDetailConfiguration.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Configurations\\RecipeDetailConfiguration.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.Infrastructure\\Configurations\\RecipeDetailConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T14:02:22.458Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RecipeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Repositories\\RecipeRepository.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Infrastructure\\Repositories\\RecipeRepository.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Repositories\\RecipeRepository.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.Infrastructure\\Repositories\\RecipeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-14T13:57:32.195Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Context\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Infrastructure\\Context\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Context\\ApplicationDbContext.cs",
               "RelativeToolTip": "ERPBackend\\ERPBackend.Infrastructure\\Context\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T20:51:38.302Z"
+              "WhenOpened": "2024-11-14T13:56:32.714Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CustomerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Repositories\\CustomerRepository.cs",
-              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Infrastructure\\Repositories\\CustomerRepository.cs",
-              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Repositories\\CustomerRepository.cs",
-              "RelativeToolTip": "ERPBackend\\ERPBackend.Infrastructure\\Repositories\\CustomerRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "AppUserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Configurations\\AppUserConfiguration.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Infrastructure\\Configurations\\AppUserConfiguration.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Configurations\\AppUserConfiguration.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.Infrastructure\\Configurations\\AppUserConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T20:51:47.652Z"
+              "WhenOpened": "2024-11-14T13:54:53.18Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "GetAllCustomerQueryHandler.cs",
-              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Application\\Features\\Customers\\GetAllCustomer\\GetAllCustomerQueryHandler.cs",
-              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Application\\Features\\Customers\\GetAllCustomer\\GetAllCustomerQueryHandler.cs",
-              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Application\\Features\\Customers\\GetAllCustomer\\GetAllCustomerQueryHandler.cs",
-              "RelativeToolTip": "ERPBackend\\ERPBackend.Application\\Features\\Customers\\GetAllCustomer\\GetAllCustomerQueryHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "RecipeConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Configurations\\RecipeConfiguration.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Infrastructure\\Configurations\\RecipeConfiguration.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Configurations\\RecipeConfiguration.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.Infrastructure\\Configurations\\RecipeConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T20:47:32.432Z"
+              "WhenOpened": "2024-11-14T13:54:51.22Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ICustomerRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Domain\\Repositories\\ICustomerRepository.cs",
-              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Domain\\Repositories\\ICustomerRepository.cs",
-              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Domain\\Repositories\\ICustomerRepository.cs",
-              "RelativeToolTip": "ERPBackend\\ERPBackend.Domain\\Repositories\\ICustomerRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "DocumentIndex": 15,
+              "Title": "IRecipeRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Domain\\Repositories\\IRecipeRepository.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Domain\\Repositories\\IRecipeRepository.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Domain\\Repositories\\IRecipeRepository.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.Domain\\Repositories\\IRecipeRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T20:45:56.583Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Customer.cs",
-              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Domain\\Entities\\Customer.cs",
-              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Domain\\Entities\\Customer.cs",
-              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Domain\\Entities\\Customer.cs",
-              "RelativeToolTip": "ERPBackend\\ERPBackend.Domain\\Entities\\Customer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T20:42:12.941Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "GetAllCustomer.cs",
-              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Application\\Features\\Customers\\GetAllCustomer\\GetAllCustomer.cs",
-              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Application\\Features\\Customers\\GetAllCustomer\\GetAllCustomer.cs",
-              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Application\\Features\\Customers\\GetAllCustomer\\GetAllCustomer.cs",
-              "RelativeToolTip": "ERPBackend\\ERPBackend.Application\\Features\\Customers\\GetAllCustomer\\GetAllCustomer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-09T20:41:57.445Z"
+              "WhenOpened": "2024-11-14T13:52:36.149Z",
+              "EditorCaption": ""
             }
           ]
         }

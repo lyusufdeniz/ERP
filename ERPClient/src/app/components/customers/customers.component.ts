@@ -34,6 +34,7 @@ export class CustomersComponent implements OnInit {
     this.http.post<CustomerModel[]>("Customer/GetAll", {}, (res) => { this.customers = res })
   }
   create(createForm: NgForm) {
+    
     if (createForm.valid) {
 
       this.http.post<string>("Customer/Create", this.createModel, (res) => { this.swal.callToast(res) })
@@ -42,6 +43,12 @@ export class CustomersComponent implements OnInit {
       this.createModalClosebtn?.nativeElement.click();
       this.swal.callToast("Müşteri Kaydedildi", 'success');
       this.getAll();
+    }
+    else
+    {
+  
+      this.swal.callToast("Hata Kaydı Kontrol Et","error")
+      
     }
 
   }

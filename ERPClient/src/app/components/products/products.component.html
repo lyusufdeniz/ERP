@@ -1,0 +1,148 @@
+<div class="content-wrapper">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">Ürün Tablosu</h4>
+    
+            <div class="form-group row">
+                <div class="col">
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        <button type="button " class="btn btn-primary btn-sm" data-bs-toggle="modal"
+                            data-bs-target="#createModal">
+                            <i class="ti-plus"></i>
+                        </button>
+                        <button type="button" class="btn btn-warning btn-sm">
+                            <i class="ti-printer"></i>
+                        </button>
+                        <button type="button" class="btn btn-success btn-sm">
+                            <i class="ti-export"></i>
+                        </button>
+    
+                    </div>
+    
+                </div>
+                <div class="col-3">
+    
+                    <input [(ngModel)]="search" type="text" class="form-control" placeholder="Ara">
+    
+                </div>
+    
+            </div>
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Ürün</th>
+                            <th>Tip</th>
+                            <th>İşlemler</th>
+    
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @for(product of products | product:search;track product)
+                        {
+                        <tr>
+                            <td>**************{{product.id.substring(30)}}</td>
+                            <td>{{product.name}}</td>
+                            <td>{{product.type.name}}</td>
+
+                     
+    
+                            <td>
+                                <div class="btn-group" role="group">
+                                   
+                                    <button (click)="get(product)" data-bs-toggle="modal" data-bs-target="#updateModal" type="button" class="btn btn-inverse-info btn-sm">
+                                        <i class="ti-pencil"></i>
+                                    </button>
+                                    <button (click)="delete(product)" type="button" class="btn btn-inverse-danger btn-sm">
+                                        <i class="ti-trash"></i>
+                                    </button>
+                                </div>
+                            </td>
+    
+    
+                        </tr>
+                        }
+    
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+    </div>
+    <!-- CreateModal -->
+    <div class="modal fade" id="createModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Depo Kayıt</h5>
+                    <button #createModalClosebtn type="button" class="btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="material-form " formValidate #createForm="ngForm" autocomplete="off" (ngSubmit)="create(createForm)">
+                        <div class="form-group ">
+                            <input type="text" [(ngModel)]="createModel.name" required="required" minlength="3" name="name">
+                            <div class="invalid-feedback"></div>
+                            <label for="input" class="control-label">Ad</label><i class="bar"></i>
+                        </div>
+        
+                        <div class="form-group mt-2">
+                            <label>Ürün Tipi</label>
+                            <select class="form-control" name="type" [(ngModel)]="createModel.typeValue" required>
+                                @for(type of types; track type){
+                                    <option [value]="type.value">{{type.name}}</option>
+                                }
+                            </select>
+                            <div class="invalid-feedback"></div>
+                        </div>                    
+                   
+                        <button type="submit" class="btn btn-success w-100">Kaydet</button>
+                    </form>
+                </div>
+              
+            </div>
+        </div>
+    </div>
+    <!-- UpdateModal -->
+    
+    
+    <div class="modal fade" id="updateModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Depo Güncelle</h5>
+                    <button #updateModalClosebtn type="button" class="btn-close" data-bs-dismiss="modal"
+                        aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form class="material-form " formValidate #updateForm="ngForm" autocomplete="off" (ngSubmit)="update(updateForm)">
+                        <div class="form-group ">
+                            <input type="text" [(ngModel)]="updateModel.name" required="required" minlength="3" name="updateName">
+                            <div class="invalid-feedback"></div>
+                            <label for="input" class="control-label">Ad</label><i class="bar"></i>
+                        </div>
+                    
+    
+                        <div class="form-group mt-2">
+                            <label>Ürün Tipi</label>
+                            <select class="form-control" name="updateType" [(ngModel)]="updateModel.typeValue" required>
+                                @for(type of types; track type){
+                                    <option [value]="type.value">{{type.name}}</option>
+                                }
+                            </select>
+                            <div class="invalid-feedback"></div>
+                        </div>   
+                        <button  type="submit" class="btn btn-success w-100">Güncelle</button>
+                    </form>
+                </div>
+              
+            </div>
+        </div>
+    </div>
+    
+    
+    
+    
+    

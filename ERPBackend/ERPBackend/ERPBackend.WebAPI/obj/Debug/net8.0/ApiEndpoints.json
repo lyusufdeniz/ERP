@@ -78,5 +78,181 @@
       }
     ],
     "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ERPBackend.WebAPI.Controllers.DepotController",
+    "Method": "Create",
+    "RelativePath": "api/Depot/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ERPBackend.Application.Features.Depots.CreateDepot.CreateDepotCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ERPBackend.WebAPI.Controllers.DepotController",
+    "Method": "Delete",
+    "RelativePath": "api/Depot/Delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ERPBackend.Application.Features.Depots.DeleteDepotById.DeleteDepotByIdCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ERPBackend.WebAPI.Controllers.DepotController",
+    "Method": "GetAll",
+    "RelativePath": "api/Depot/GetAll",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ERPBackend.Application.Features.Depots.GetAllDepot.GetAllDepotQuery",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ERPBackend.WebAPI.Controllers.DepotController",
+    "Method": "Update",
+    "RelativePath": "api/Depot/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ERPBackend.Application.Features.Depots.UpdateDepot.UpdateDepotCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ERPBackend.WebAPI.Controllers.ProductController",
+    "Method": "Create",
+    "RelativePath": "api/Product/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ERPBackend.Application.Features.Products.CreateProduct.CreateProductCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ERPBackend.WebAPI.Controllers.ProductController",
+    "Method": "Delete",
+    "RelativePath": "api/Product/Delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ERPBackend.Application.Features.Products.DeleteProductById.DeleteProductByIdCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ERPBackend.WebAPI.Controllers.ProductController",
+    "Method": "GetAll",
+    "RelativePath": "api/Product/GetAll",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ERPBackend.Application.Features.Products.GetAllProduct.GetAllProductQuery",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ERPBackend.WebAPI.Controllers.ProductController",
+    "Method": "Update",
+    "RelativePath": "api/Product/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ERPBackend.Application.Features.Products.UpdateProduct.UpdateProductCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ERPBackend.WebAPI.Controllers.RecipesController",
+    "Method": "Create",
+    "RelativePath": "api/Recipes/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ERPBackend.Application.Features.Recipes.CreateRecipe.CreateRecipeCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ERPBackend.WebAPI.Controllers.RecipesController",
+    "Method": "Delete",
+    "RelativePath": "api/Recipes/Delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ERPBackend.Application.Features.Recipes.DeleteRecipeById.DeleteRecipeByIdCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ERPBackend.WebAPI.Controllers.RecipesController",
+    "Method": "GetAll",
+    "RelativePath": "api/Recipes/GetAll",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ERPBackend.Application.Features.Recipes.GetAllRecipe.GetAllRecipeQuery",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
   }
 ]

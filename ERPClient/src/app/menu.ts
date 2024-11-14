@@ -30,6 +30,15 @@ export const Menus: MenuModel[] = [
         subMenus: []
 
     }
+    ,
+    {
+        name: "Ürünler",
+        icon: "mdi mdi-package",
+        url: "products",
+        subMenus: []
+
+    }
+    
     
   
     
