@@ -26,8 +26,8 @@ SimpleERP is a **Clean Architecture** template for modern software development, 
 ## Setup Instructions
 
 ### 1. Clone the Repositories
-- **Backend**: [https://github.com/lyusufdeniz/SimpleERP](https://github.com/lyusufdeniz/SimpleERP)
-- **Frontend**: Clone the Angular frontend repository.
+ [https://github.com/lyusufdeniz/SimpleERP](https://github.com/lyusufdeniz/SimpleERP)
+
 
 ### 2. Install Dependencies
 - Backend: Run `dotnet restore` in the backend directory.
