@@ -1,0 +1,124 @@
+<div class="content-wrapper">
+    <div class="card">
+        <div class="card-body">
+            <h4 class="card-title">{{recipe.product.name}} Malzeme Detay Tablosu</h4>
+    
+            <div class="form-group row">
+                
+                <div class="form-group mt-2 row">
+                    @if(!isUpdateFormActive){
+                        <!-- Create Form -->
+                        <div class="col-9">
+                            <form #createForm="ngForm" autocomplete="off" (ngSubmit)="create(createForm)">
+                                <div class="row">
+                                    <div class="col-3">
+                                        <label>Ürün</label>
+                                        <select class="form-control" [(ngModel)]="createModel.productId" name="productId" required>
+                                            @for(product of products; track product){
+                                            <option [value]="product.id">
+                                                {{product.name}}
+                                            </option>
+                                            }
+                                        </select>
+                                        <div class="invalid-feedback"></div>
+                                    </div>
+                                    <div class="col-3">
+                                        <label>Adet</label>
+                                        <input type="text" class="form-control" name="quantity" [(ngModel)]="createModel.quantity"
+                                            required>
+                                        <div class="invalid-feedback"></div>
+                                    </div>
+                                    <div class="col-3">
+                                        <label>İşlemler</label>
+                                        <br>
+                                        <button type="submit" class="btn btn-dark">Ekle</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    }@else {
+                        <!-- Update Form -->
+                        <div class="col-9">
+                           <form #updateForm="ngForm" autocomplete="off" (ngSubmit)="update(updateForm)">
+                               <div class="row">
+                                   <div class="col-3">
+                                       <label>Ürün</label>
+                                       <select class="form-control" [(ngModel)]="updateModel.productId" name="updateProductId" required>
+                                           @for(product of products; track product){
+                                           <option [value]="product.id">
+                                               {{product.name}}
+                                           </option>
+                                           }
+                                       </select>
+                                       <div class="invalid-feedback"></div>
+                                   </div>
+                                   <div class="col-3">
+                                       <label>Adet</label>
+                                       <input type="text" class="form-control" name="updateQuantity" [(ngModel)]="updateModel.quantity"
+                                           required>
+                                       <div class="invalid-feedback"></div>
+                                   </div>
+                                   <div class="col-3">
+                                       <label>İşlemler</label>
+                                       <br>
+                                       <button type="submit" class="btn btn-dark me-1">Güncelle</button>
+                                       <button type="button" class="btn btn-danger" (click)="isUpdateFormActive = false">Vazgeç</button>
+                                   </div>
+                               </div>
+                           </form>
+                        </div>
+                    }
+                    <div class="col-3">
+    
+                        <input [(ngModel)]="search" type="text" class="form-control" placeholder="Ara">
+        
+                    </div>
+                </div>
+         
+    
+            </div>
+            <div class="table-responsive">
+                <table class="table table-hover">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Ürün</th>
+                            <th>Adet</th>
+                            <th>İşlemler</th>
+    
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @for(data of recipe.details | recipeDetails:search;track data)
+                        {
+                        <tr>
+                            <td>**************{{data.id.substring(30)}}</td>
+                            <td>{{data.product.name}}</td>
+                            <td>{{data.quantity}}</td>
+
+                     
+    
+                            <td>
+                                <div class="btn-group" role="group">
+                                   
+                                    <button (click)="get(data)"  type="button" class="btn btn-inverse-info btn-sm">
+                                        <i class="ti-pencil"></i>
+                                    </button>
+                                    <button (click)="deleteById(data)" type="button" class="btn btn-inverse-danger btn-sm">
+                                        <i class="ti-trash"></i>
+                                    </button>
+                                </div>
+                            </td>
+    
+    
+                        </tr>
+                        }
+    
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+    </div>
+  

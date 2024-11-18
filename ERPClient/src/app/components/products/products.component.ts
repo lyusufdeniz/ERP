@@ -33,12 +33,17 @@ export class ProductsComponent implements OnInit {
   create(createForm: NgForm) {
     if (createForm.valid) {
 
-      this.http.post<string>("Product/Create", this.createModel, (res) => { this.swal.callToast(res) })
+      this.http.post<string>("Product/Create", this.createModel, (res) => { 
+        this.swal.callToast(res) 
+        this.createModel = new ProductModel();
+        this.createModalClosebtn?.nativeElement.click();
+        this.swal.callToast("Ürün Kaydedildi", 'success');
+        this.getAll();
+      
+      
+      })
 
-      this.createModel = new ProductModel();
-      this.createModalClosebtn?.nativeElement.click();
-      this.swal.callToast("Ürün Kaydedildi", 'success');
-      this.getAll();
+   
     }
 
   }

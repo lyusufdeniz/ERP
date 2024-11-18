@@ -38,7 +38,14 @@ export const Menus: MenuModel[] = [
         subMenus: []
 
     }
-    
+    ,
+    {
+        name: "Ürün Malzeme",
+        icon: "mdi mdi-archive-plus",
+        url: "recipes",
+        subMenus: []
+
+    }
     
   
     
