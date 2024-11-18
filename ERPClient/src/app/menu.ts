@@ -45,7 +45,13 @@ export const Menus: MenuModel[] = [
         url: "recipes",
         subMenus: []
 
-    }
+    },
+    {
+        name: "Siparişler",
+        icon: "mdi mdi-basket",
+        url: "/orders",
+        subMenus: []
+    },
     
   
     

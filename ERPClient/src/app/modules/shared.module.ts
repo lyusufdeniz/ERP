@@ -2,6 +2,7 @@ import { FormValidateDirective } from 'form-validate-angular';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
+import { TrCurrencyPipe } from 'tr-currency';
 
 
 
@@ -12,12 +13,14 @@ import { FormsModule } from '@angular/forms';
   imports: [
     CommonModule,
     FormsModule,
-    FormValidateDirective
+    FormValidateDirective,
+    TrCurrencyPipe
   ],
   exports: [
     CommonModule,
     FormsModule,
-    FormValidateDirective
+    FormValidateDirective,
+    TrCurrencyPipe
   ]
 })
 export class SharedModule { }

@@ -31,12 +31,15 @@ export class DepotsComponent implements OnInit {
   create(createForm: NgForm) {
     if (createForm.valid) {
 
-      this.http.post<string>("Depot/Create", this.createModel, (res) => { this.swal.callToast(res) })
+      this.http.post<string>("Depot/Create", this.createModel, (res) => { 
+        this.swal.callToast(res)      
+       this.createModel = new DepotModel();
+        this.createModalClosebtn?.nativeElement.click();
+        this.swal.callToast("Depo Kaydedildi", 'success');
+        this.getAll(); 
+      })
 
-      this.createModel = new DepotModel();
-      this.createModalClosebtn?.nativeElement.click();
-      this.swal.callToast("Depo Kaydedildi", 'success');
-      this.getAll();
+
     }
 
   }

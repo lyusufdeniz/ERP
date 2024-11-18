@@ -37,12 +37,16 @@ export class CustomersComponent implements OnInit {
     
     if (createForm.valid) {
 
-      this.http.post<string>("Customer/Create", this.createModel, (res) => { this.swal.callToast(res) })
+      this.http.post<string>("Customer/Create", this.createModel, (res) => { 
+        this.swal.callToast(res)
+        this.createModel = new CustomerModel();
+        this.createModalClosebtn?.nativeElement.click();
+        this.swal.callToast("Müşteri Kaydedildi", 'success');
+        this.getAll();
+      
+      })
 
-      this.createModel = new CustomerModel();
-      this.createModalClosebtn?.nativeElement.click();
-      this.swal.callToast("Müşteri Kaydedildi", 'success');
-      this.getAll();
+
     }
     else
     {

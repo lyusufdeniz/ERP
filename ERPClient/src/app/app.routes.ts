@@ -1,3 +1,4 @@
+import { OrdersComponent } from './components/orders/orders.component';
 import { inject } from '@angular/core';
 import { Routes } from '@angular/router';
 import { LoginComponent } from './components/login/login.component';
@@ -46,6 +47,11 @@ export const routes: Routes = [
         {
             path: "recipe-details/:id",
             component: RecipeDetailsComponent
+        }
+        ,
+        {
+            path: "orders",
+            component: OrdersComponent
         }
     ]
 }
