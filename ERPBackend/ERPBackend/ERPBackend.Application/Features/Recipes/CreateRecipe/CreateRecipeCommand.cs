@@ -7,8 +7,7 @@ using TS.Result;
 namespace ERPBackend.Application.Features.Recipes.CreateRecipe
 {
 
-    public sealed record CreateRecipeCommand(Guid ProductId,List<RecipeDetailDto> RecipeDetails) : IRequest<Result<string>>
-    {
-
-    }
+    public sealed record CreateRecipeCommand(
+        Guid ProductId,
+        List<RecipeDetailDto> Details) : IRequest<Result<string>>;
 }

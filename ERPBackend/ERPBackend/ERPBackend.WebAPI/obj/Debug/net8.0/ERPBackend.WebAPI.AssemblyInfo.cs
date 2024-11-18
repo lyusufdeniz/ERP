@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ERPBackend.WebAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c21ae35adf1051be302839a2608fd849b228cf3a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c009c4cfec9b21858c691322f2b412fecf646003")]
 [assembly: System.Reflection.AssemblyProductAttribute("ERPBackend.WebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ERPBackend.WebAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

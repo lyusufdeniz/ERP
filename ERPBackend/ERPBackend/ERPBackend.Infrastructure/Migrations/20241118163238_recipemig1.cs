@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace ERPBackend.Infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class recipes1 : Migration
+    public partial class recipemig1 : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -58,18 +58,6 @@ namespace ERPBackend.Infrastructure.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "Recipes",
-                columns: table => new
-                {
-                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
-                    ProductId = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
-                },
-                constraints: table =>
-                {
-                    table.PrimaryKey("PK_Recipes", x => x.Id);
-                });
-
-            migrationBuilder.CreateTable(
                 name: "Roles",
                 columns: table => new
                 {
@@ -113,6 +101,23 @@ namespace ERPBackend.Infrastructure.Migrations
                 });
 
             migrationBuilder.CreateTable(
+                name: "Recipes",
+                columns: table => new
+                {
+                    Id = table.Column<Guid>(type: "uniqueidentifier", nullable: false),
+                    ProductId = table.Column<Guid>(type: "uniqueidentifier", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Recipes", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_Recipes_Products_ProductId",
+                        column: x => x.ProductId,
+                        principalTable: "Products",
+                        principalColumn: "Id");
+                });
+
+            migrationBuilder.CreateTable(
                 name: "RecipeDetails",
                 columns: table => new
                 {
@@ -147,6 +152,11 @@ namespace ERPBackend.Infrastructure.Migrations
                 name: "IX_RecipeDetails_RecipeId",
                 table: "RecipeDetails",
                 column: "RecipeId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_Recipes_ProductId",
+                table: "Recipes",
+                column: "ProductId");
         }
 
         /// <inheritdoc />
@@ -168,10 +178,10 @@ namespace ERPBackend.Infrastructure.Migrations
                 name: "Users");
 
             migrationBuilder.DropTable(
-                name: "Products");
+                name: "Recipes");
 
             migrationBuilder.DropTable(
-                name: "Recipes");
+                name: "Products");
         }
     }
 }

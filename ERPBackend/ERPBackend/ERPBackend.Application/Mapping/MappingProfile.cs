@@ -5,6 +5,8 @@ using ERPBackend.Application.Features.Depots.CreateDepot;
 using ERPBackend.Application.Features.Depots.UpdateDepot;
 using ERPBackend.Application.Features.Products.CreateProduct;
 using ERPBackend.Application.Features.Products.UpdateProduct;
+using ERPBackend.Application.Features.RecipeDetails.CreateRecipeDetail;
+using ERPBackend.Application.Features.RecipeDetails.UpdateRecipeDetail;
 using ERPBackend.Domain.Entities;
 using ERPBackend.Domain.Entities.Customer;
 using ERPBackend.Domain.Enums;
@@ -23,6 +25,8 @@ namespace ERPBackend.Application.Mapping
 
             CreateMap<CreateProductCommand, Product>().ForMember(member=>member.Type,options=>options.MapFrom(value=>ProductTypeEnum.FromValue(value.TypeValue)));
             CreateMap<UpdateProductCommand, Product>().ForMember(member => member.Type, options => options.MapFrom(value => ProductTypeEnum.FromValue(value.TypeValue)));
+            CreateMap<CreateRecipeDetailCommand, RecipeDetail>();
+            CreateMap<UpdateRecipeDetailCommand, RecipeDetail>();
 
 
         }

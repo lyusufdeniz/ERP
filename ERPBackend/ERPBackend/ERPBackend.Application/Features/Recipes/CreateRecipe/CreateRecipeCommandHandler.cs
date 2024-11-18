@@ -6,23 +6,34 @@ using TS.Result;
 
 namespace ERPBackend.Application.Features.Recipes.CreateRecipe
 {
-    internal sealed class CreateRecipeCommandHandler(IRecipeRepository recipeRepository ,IUnitOfWork unitOfWork) : IRequestHandler<CreateRecipeCommand, Result<string>>
+    internal sealed class CreateRecipeCommandHandler(
+      IRecipeRepository recipeRepository,
+      IUnitOfWork unitOfWork) : IRequestHandler<CreateRecipeCommand, Result<string>>
     {
         public async Task<Result<string>> Handle(CreateRecipeCommand request, CancellationToken cancellationToken)
         {
-            bool isRecipeExist = recipeRepository.Any(p => p.ProductId == request.ProductId);
-            if (isRecipeExist)
+            bool isRecipeExists = await recipeRepository.AnyAsync(p => p.ProductId == request.ProductId, cancellationToken);
+
+            if (isRecipeExists)
             {
-                return Result<string>.Failure("Bu ürün için bir reçete zaten mevcut");
+                return Result<string>.Failure("Bu ürüne ait reçete daha önce oluşturulmuş");
             }
-            Recipe recipe=new ()
+
+            Recipe recipe = new()
             {
                 ProductId = request.ProductId,
-                RecipeDetails=request.RecipeDetails.Select(s=> new RecipeDetail() { ProductId=s.ProductId,Quantity=s.Quantity}).ToList(),
+                Details = request.Details.Select(s =>
+                    new RecipeDetail()
+                    {
+                        ProductId = s.ProductId,
+                        Quantity = s.Quantity
+                    }).ToList()
             };
+
             await recipeRepository.AddAsync(recipe);
             await unitOfWork.SaveChangesAsync(cancellationToken);
-            return "kaıyt başarılı";
+
+            return "Reçete kaydı başarıyla tamamlandı";
         }
     }
 }

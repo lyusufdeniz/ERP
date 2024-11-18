@@ -208,6 +208,70 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "ERPBackend.WebAPI.Controllers.RecipeDetailsController",
+    "Method": "Create",
+    "RelativePath": "api/RecipeDetails/Create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ERPBackend.Application.Features.RecipeDetails.CreateRecipeDetail.CreateRecipeDetailCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ERPBackend.WebAPI.Controllers.RecipeDetailsController",
+    "Method": "Delete",
+    "RelativePath": "api/RecipeDetails/Delete",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ERPBackend.Application.Features.RecipeDetails.DeleteRecipeDetailById.DeleteRecipeDetailByIdCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ERPBackend.WebAPI.Controllers.RecipeDetailsController",
+    "Method": "GetById",
+    "RelativePath": "api/RecipeDetails/GetById",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ERPBackend.Application.Features.RecipeDetails.GetByIdRecipeWithDetails.GetRecipeByIdWithDetailsQuery",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ERPBackend.WebAPI.Controllers.RecipeDetailsController",
+    "Method": "Update",
+    "RelativePath": "api/RecipeDetails/Update",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "ERPBackend.Application.Features.RecipeDetails.UpdateRecipeDetail.UpdateRecipeDetailCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "ERPBackend.WebAPI.Controllers.RecipesController",
     "Method": "Create",
     "RelativePath": "api/Recipes/Create",

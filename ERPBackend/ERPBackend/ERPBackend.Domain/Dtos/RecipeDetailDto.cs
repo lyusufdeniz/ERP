@@ -1,6 +1,6 @@
 ﻿namespace ERPBackend.Domain.Dtos
 {
-    public record RecipeDetailDto(Guid ProductId,decimal Quantity)
-    {
-    }
+    public sealed record RecipeDetailDto(
+       Guid ProductId,
+       decimal Quantity);
 }
