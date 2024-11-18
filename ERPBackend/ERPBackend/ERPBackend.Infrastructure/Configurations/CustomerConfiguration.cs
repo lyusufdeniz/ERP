@@ -1,5 +1,5 @@
 ﻿using ERPBackend.Domain.Entities;
-using ERPBackend.Domain.Entities.Customer;
+
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 

@@ -1,5 +1,5 @@
 ﻿
-using ERPBackend.Domain.Entities.Customer;
+using ERPBackend.Domain.Entities;
 using MediatR;
 using System.Net.Http.Headers;
 using TS.Result;

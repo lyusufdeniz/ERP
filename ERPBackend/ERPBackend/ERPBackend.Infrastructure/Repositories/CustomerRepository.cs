@@ -1,4 +1,4 @@
-﻿using ERPBackend.Domain.Entities.Customer;
+﻿using ERPBackend.Domain.Entities;
 using ERPBackend.Domain.Repositories;
 using ERPBackend.Infrastructure.Context;
 using GenericRepository;

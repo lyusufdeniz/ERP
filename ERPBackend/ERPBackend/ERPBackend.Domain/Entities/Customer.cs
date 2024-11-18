@@ -1,6 +1,6 @@
 ﻿using ERPBackend.Domain.Abstractions;
 
-namespace ERPBackend.Domain.Entities.Customer
+namespace ERPBackend.Domain.Entities
 {
     public  class Customer:Entity
     {

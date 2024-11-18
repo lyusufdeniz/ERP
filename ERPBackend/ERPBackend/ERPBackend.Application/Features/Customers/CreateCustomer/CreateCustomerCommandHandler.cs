@@ -1,6 +1,6 @@
 ﻿using AutoMapper;
 using ERPBackend.Application.Features.Customers.CreateCustomer;
-using ERPBackend.Domain.Entities.Customer;
+using ERPBackend.Domain.Entities;
 using ERPBackend.Domain.Repositories;
 using GenericRepository;
 using MediatR;
