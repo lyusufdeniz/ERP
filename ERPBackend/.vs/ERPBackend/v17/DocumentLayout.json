@@ -3,6 +3,54 @@
   "WorkspaceRootPath": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{4DEAB5B7-9647-4665-8F83-DDE6B015A79A}|ERPBackend\\ERPBackend.WebAPI\\ERPBackend.WebAPI.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.webapi\\middlewares\\extensionsmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DEAB5B7-9647-4665-8F83-DDE6B015A79A}|ERPBackend\\ERPBackend.WebAPI\\ERPBackend.WebAPI.csproj|solutionrelative:erpbackend\\erpbackend.webapi\\middlewares\\extensionsmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F8EF66E-4549-4342-9079-D787CB89A974}|ERPBackend\\ERPBackend.Infrastructure\\ERPBackend.Infrastructure.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F8EF66E-4549-4342-9079-D787CB89A974}|ERPBackend\\ERPBackend.Infrastructure\\ERPBackend.Infrastructure.csproj|solutionrelative:erpbackend\\erpbackend.infrastructure\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F8EF66E-4549-4342-9079-D787CB89A974}|ERPBackend\\ERPBackend.Infrastructure\\ERPBackend.Infrastructure.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.infrastructure\\configurations\\appuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F8EF66E-4549-4342-9079-D787CB89A974}|ERPBackend\\ERPBackend.Infrastructure\\ERPBackend.Infrastructure.csproj|solutionrelative:erpbackend\\erpbackend.infrastructure\\configurations\\appuserconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CCB77EC-0CCA-4782-9DC5-763FC5BCDD00}|ERPBackend\\ERPBackend.Application\\ERPBackend.Application.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CCB77EC-0CCA-4782-9DC5-763FC5BCDD00}|ERPBackend\\ERPBackend.Application\\ERPBackend.Application.csproj|solutionrelative:erpbackend\\erpbackend.application\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CCB77EC-0CCA-4782-9DC5-763FC5BCDD00}|ERPBackend\\ERPBackend.Application\\ERPBackend.Application.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.application\\services\\ijwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CCB77EC-0CCA-4782-9DC5-763FC5BCDD00}|ERPBackend\\ERPBackend.Application\\ERPBackend.Application.csproj|solutionrelative:erpbackend\\erpbackend.application\\services\\ijwtprovider.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CCB77EC-0CCA-4782-9DC5-763FC5BCDD00}|ERPBackend\\ERPBackend.Application\\ERPBackend.Application.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.application\\features\\auth\\login\\logincommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CCB77EC-0CCA-4782-9DC5-763FC5BCDD00}|ERPBackend\\ERPBackend.Application\\ERPBackend.Application.csproj|solutionrelative:erpbackend\\erpbackend.application\\features\\auth\\login\\logincommandvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CCB77EC-0CCA-4782-9DC5-763FC5BCDD00}|ERPBackend\\ERPBackend.Application\\ERPBackend.Application.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.application\\features\\auth\\login\\logincommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CCB77EC-0CCA-4782-9DC5-763FC5BCDD00}|ERPBackend\\ERPBackend.Application\\ERPBackend.Application.csproj|solutionrelative:erpbackend\\erpbackend.application\\features\\auth\\login\\logincommandresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CCB77EC-0CCA-4782-9DC5-763FC5BCDD00}|ERPBackend\\ERPBackend.Application\\ERPBackend.Application.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.application\\features\\auth\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CCB77EC-0CCA-4782-9DC5-763FC5BCDD00}|ERPBackend\\ERPBackend.Application\\ERPBackend.Application.csproj|solutionrelative:erpbackend\\erpbackend.application\\features\\auth\\login\\logincommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2CCB77EC-0CCA-4782-9DC5-763FC5BCDD00}|ERPBackend\\ERPBackend.Application\\ERPBackend.Application.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.application\\features\\auth\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2CCB77EC-0CCA-4782-9DC5-763FC5BCDD00}|ERPBackend\\ERPBackend.Application\\ERPBackend.Application.csproj|solutionrelative:erpbackend\\erpbackend.application\\features\\auth\\login\\logincommand.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DEAB5B7-9647-4665-8F83-DDE6B015A79A}|ERPBackend\\ERPBackend.WebAPI\\ERPBackend.WebAPI.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DEAB5B7-9647-4665-8F83-DDE6B015A79A}|ERPBackend\\ERPBackend.WebAPI\\ERPBackend.WebAPI.csproj|solutionrelative:erpbackend\\erpbackend.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4DEAB5B7-9647-4665-8F83-DDE6B015A79A}|ERPBackend\\ERPBackend.WebAPI\\ERPBackend.WebAPI.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.webapi\\aop\\enablequerywithmetadataattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4DEAB5B7-9647-4665-8F83-DDE6B015A79A}|ERPBackend\\ERPBackend.WebAPI\\ERPBackend.WebAPI.csproj|solutionrelative:erpbackend\\erpbackend.webapi\\aop\\enablequerywithmetadataattribute.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0F8EF66E-4549-4342-9079-D787CB89A974}|ERPBackend\\ERPBackend.Infrastructure\\ERPBackend.Infrastructure.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0F8EF66E-4549-4342-9079-D787CB89A974}|ERPBackend\\ERPBackend.Infrastructure\\ERPBackend.Infrastructure.csproj|solutionrelative:erpbackend\\erpbackend.infrastructure\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{2CCB77EC-0CCA-4782-9DC5-763FC5BCDD00}|ERPBackend\\ERPBackend.Application\\ERPBackend.Application.csproj|c:\\users\\yusuf\\source\\repos\\erp\\erpbackend\\erpbackend\\erpbackend.application\\features\\orders\\updateorder\\updateordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{2CCB77EC-0CCA-4782-9DC5-763FC5BCDD00}|ERPBackend\\ERPBackend.Application\\ERPBackend.Application.csproj|solutionrelative:erpbackend\\erpbackend.application\\features\\orders\\updateorder\\updateordercommandhandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -25,28 +73,180 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "ExtensionsMiddleware.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.WebAPI\\Middlewares\\ExtensionsMiddleware.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.WebAPI\\Middlewares\\ExtensionsMiddleware.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.WebAPI\\Middlewares\\ExtensionsMiddleware.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.WebAPI\\Middlewares\\ExtensionsMiddleware.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T21:08:44.161Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Infrastructure\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\DependencyInjection.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.Infrastructure\\DependencyInjection.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T21:08:08.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Application\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Application\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Application\\DependencyInjection.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.Application\\DependencyInjection.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T21:07:42.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IJwtProvider.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Application\\Services\\IJwtProvider.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Application\\Services\\IJwtProvider.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Application\\Services\\IJwtProvider.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.Application\\Services\\IJwtProvider.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T21:07:41.693Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "LoginCommandValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Application\\Features\\Auth\\Login\\LoginCommandValidator.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Application\\Features\\Auth\\Login\\LoginCommandValidator.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Application\\Features\\Auth\\Login\\LoginCommandValidator.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.Application\\Features\\Auth\\Login\\LoginCommandValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T21:07:36.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginCommandResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Application\\Features\\Auth\\Login\\LoginCommandResponse.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Application\\Features\\Auth\\Login\\LoginCommandResponse.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Application\\Features\\Auth\\Login\\LoginCommandResponse.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.Application\\Features\\Auth\\Login\\LoginCommandResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T21:07:34.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "LoginCommandHandler.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Application\\Features\\Auth\\Login\\LoginCommandHandler.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Application\\Features\\Auth\\Login\\LoginCommandHandler.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Application\\Features\\Auth\\Login\\LoginCommandHandler.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.Application\\Features\\Auth\\Login\\LoginCommandHandler.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T21:07:31.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LoginCommand.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Application\\Features\\Auth\\Login\\LoginCommand.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Application\\Features\\Auth\\Login\\LoginCommand.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Application\\Features\\Auth\\Login\\LoginCommand.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.Application\\Features\\Auth\\Login\\LoginCommand.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T21:07:30.725Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.WebAPI\\Program.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.WebAPI\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T21:07:13.168Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppUserConfiguration.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Configurations\\AppUserConfiguration.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Infrastructure\\Configurations\\AppUserConfiguration.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Configurations\\AppUserConfiguration.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.Infrastructure\\Configurations\\AppUserConfiguration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T21:05:33.585Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EnableQueryWithMetadataAttribute.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.WebAPI\\AOP\\EnableQueryWithMetadataAttribute.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.WebAPI\\AOP\\EnableQueryWithMetadataAttribute.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.WebAPI\\AOP\\EnableQueryWithMetadataAttribute.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.WebAPI\\AOP\\EnableQueryWithMetadataAttribute.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T21:06:53.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.Infrastructure\\Context\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBYAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-18T21:05:41.489Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
               "Title": "UpdateOrderCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Application\\Features\\Orders\\UpdateOrder\\UpdateOrderCommandHandler.cs",
               "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Application\\Features\\Orders\\UpdateOrder\\UpdateOrderCommandHandler.cs",
               "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Application\\Features\\Orders\\UpdateOrder\\UpdateOrderCommandHandler.cs",
               "RelativeToolTip": "ERPBackend\\ERPBackend.Application\\Features\\Orders\\UpdateOrder\\UpdateOrderCommandHandler.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAowB8AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T20:17:14.561Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 15,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP.Udemy\\ERPServer\\ERPServer.Application\\Mapping\\MappingProfile.cs",
               "RelativeDocumentMoniker": "..\\..\\ERP.Udemy\\ERPServer\\ERPServer.Application\\Mapping\\MappingProfile.cs",
@@ -58,7 +258,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 14,
               "Title": "MappingProfile.cs",
               "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Application\\Mapping\\MappingProfile.cs",
               "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Application\\Mapping\\MappingProfile.cs",
@@ -66,12 +266,11 @@
               "RelativeToolTip": "ERPBackend\\ERPBackend.Application\\Mapping\\MappingProfile.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAgwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T20:13:56.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T20:13:56.587Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 13,
               "Title": "OrdersController.cs",
               "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.WebAPI\\Controllers\\OrdersController.cs",
               "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.WebAPI\\Controllers\\OrdersController.cs",
@@ -79,8 +278,7 @@
               "RelativeToolTip": "ERPBackend\\ERPBackend.WebAPI\\Controllers\\OrdersController.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAwwCwAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T20:11:52.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T20:11:52.943Z"
             }
           ]
         }

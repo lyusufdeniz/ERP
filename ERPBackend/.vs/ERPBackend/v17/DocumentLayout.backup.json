@@ -37,8 +37,8 @@
               "Title": "UpdateOrderCommandHandler.cs",
               "DocumentMoniker": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Application\\Features\\Orders\\UpdateOrder\\UpdateOrderCommandHandler.cs",
               "RelativeDocumentMoniker": "ERPBackend\\ERPBackend.Application\\Features\\Orders\\UpdateOrder\\UpdateOrderCommandHandler.cs",
-              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Application\\Features\\Orders\\UpdateOrder\\UpdateOrderCommandHandler.cs*",
-              "RelativeToolTip": "ERPBackend\\ERPBackend.Application\\Features\\Orders\\UpdateOrder\\UpdateOrderCommandHandler.cs*",
+              "ToolTip": "C:\\Users\\Yusuf\\source\\repos\\ERP\\ERPBackend\\ERPBackend\\ERPBackend.Application\\Features\\Orders\\UpdateOrder\\UpdateOrderCommandHandler.cs",
+              "RelativeToolTip": "ERPBackend\\ERPBackend.Application\\Features\\Orders\\UpdateOrder\\UpdateOrderCommandHandler.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAASAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-18T20:17:14.561Z",
@@ -66,8 +66,7 @@
               "RelativeToolTip": "ERPBackend\\ERPBackend.Application\\Mapping\\MappingProfile.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAgwB4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T20:13:56.587Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T20:13:56.587Z"
             },
             {
               "$type": "Document",
@@ -79,8 +78,7 @@
               "RelativeToolTip": "ERPBackend\\ERPBackend.WebAPI\\Controllers\\OrdersController.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAwwCwAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-18T20:11:52.943Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-11-18T20:11:52.943Z"
             }
           ]
         }
