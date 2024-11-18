@@ -140,4 +140,4 @@ This project is licensed under the MIT License. For more details, refer to the *
 
 ---
 
-For any questions or feedback, feel free to reach out via [yusufdeniz@example.com](mailto:yusufdeniz@example.com). 😊
+For any questions or feedback, feel free to reach out via [yd.yusufdeniz41@gmail.com](mailto:yd.yusufdeniz41@gmail.com). 😊
